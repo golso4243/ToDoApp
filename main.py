@@ -64,4 +64,6 @@ while True:
                 else:
                     print("Invalid task number.")
         case '5':  # If user types 'exit', break the loop and end the program
-            break
+            break    
+        case _:  # Catch all Exceptions
+            print("\n[!] Invalid Input")
